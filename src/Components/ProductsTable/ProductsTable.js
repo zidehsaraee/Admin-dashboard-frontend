@@ -30,19 +30,19 @@ function createData(ProductImage, name, Price, inStock) {
 }
 const rows = [
   createData(
-    "./images/ProductsImg/Computer-desk.jpg",
+    `process.env.PUBLIC_URL +/images/ProductsImg/Computer-desk.jpg`,
     "Computer desk",
     1240,
     25
   ),
-  createData("./images/ProductsImg/hp-laptop.jpg", "Laptop Hp", 780, 30),
-  createData("./images/ProductsImg/hub1.jpg", "Hub", 24, 118),
-  createData("./images/ProductsImg/keyboard.jpg", "Keyboard", 34, 70),
-  createData("./images/ProductsImg/microphone.jpg", "Microphone", 48, 16),
-  createData("./images/ProductsImg/monitor-arm-3.jpg", "Monitor arm", 25, 11),
-  createData("./images/ProductsImg/monitor.jpg", "Monitor", 370, 100),
-  createData("./images/ProductsImg/mouse1.jpg", "Mouse", 35, 20),
-  createData("./images/ProductsImg/mug.jpg", "Mug", 6, 100),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/hp-laptop.jpg`, "Laptop Hp", 780, 30),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/hub1.jpg`, "Hub", 24, 118),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/keyboard.jpg`, "Keyboard", 34, 70),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/microphone.jpg`, "Microphone", 48, 16),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/monitor-arm-3.jpg`, "Monitor arm", 25, 11),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/monitor.jpg`, "Monitor", 370, 100),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/mouse1.jpg`, "Mouse", 35, 20),
+  createData(`process.env.PUBLIC_URL +/images/ProductsImg/mug.jpg`, "Mug", 6, 100),
 ];
 
 export default function ProductsTable() {
