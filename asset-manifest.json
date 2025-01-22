@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/css/main.098ba35c.css",
+    "main.js": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/js/main.349ab759.js",
+    "index.html": "//zidehsaraee.github.io/Admin-dashboard-frontend/index.html",
+    "main.098ba35c.css.map": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/css/main.098ba35c.css.map",
+    "main.349ab759.js.map": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/js/main.349ab759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098ba35c.css",
+    "static/js/main.349ab759.js"
+  ]
+}
