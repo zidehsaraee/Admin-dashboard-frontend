@@ -30,7 +30,7 @@ function createData(ProductImage, name, Price, inStock) {
 }
 const rows = [
   createData(
-    `${process.env.PUBLIC_URL}/images/ProductsImg/Computer-desk.jpg`,
+    `./images/ProductsImg/Computer-desk.jpg`,
     "Computer desk",
     1240,
     25
