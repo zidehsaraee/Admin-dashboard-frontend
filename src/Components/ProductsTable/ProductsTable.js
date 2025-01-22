@@ -30,7 +30,7 @@ function createData(ProductImage, name, Price, inStock) {
 }
 const rows = [
   createData(
-    `./images/ProductsImg/Computer-desk.jpg`,
+    `${process.env.PUBLIC_URL}/images/ProductsImg/Computer-desk.jpg`,
     "Computer desk",
     1240,
     25
@@ -41,7 +41,12 @@ const rows = [
     780,
     30
   ),
-  createData(`${process.env.PUBLIC_URL}/images/ProductsImg/hub1.jpg`, "Hub", 24, 118),
+  createData(
+    `${process.env.PUBLIC_URL}/images/ProductsImg/hub1.jpg`,
+    "Hub",
+    24,
+    118
+  ),
   createData(
     `${process.env.PUBLIC_URL}/images/ProductsImg/keyboard.jpg`,
     "Keyboard",
@@ -72,7 +77,12 @@ const rows = [
     35,
     20
   ),
-  createData(`${process.env.PUBLIC_URL}/images/ProductsImg/mug.jpg`, "Mug", 6, 100),
+  createData(
+    `${process.env.PUBLIC_URL}/images/ProductsImg/Mug.jpg`,
+    "Mug",
+    6,
+    100
+  ),
 ];
 
 export default function ProductsTable() {
