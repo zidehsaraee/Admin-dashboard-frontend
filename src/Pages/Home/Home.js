@@ -98,7 +98,7 @@ export default function Home() {
                 </Typography>
               </Stack>
               <Avatar
-                src="./images/HomePageImg/users-svg.png"
+                src={`${process.env.PUBLIC_URL}/images/HomePageImg/users-svg.png`}
                 sx={{ width: "80px", height: "80px" }}
               ></Avatar>
               {/* <GroupsIcon
@@ -145,7 +145,7 @@ export default function Home() {
                 </Typography>
               </Stack>
               <Avatar
-                src="./images/HomePageImg/products-svg.png"
+                src={`${process.env.PUBLIC_URL}/images/HomePageImg/products-svg.png`}
                 sx={{ width: "80px", height: "80px" }}
               ></Avatar>
 
@@ -193,7 +193,7 @@ export default function Home() {
                 </Typography>
               </Stack>
               <Avatar
-                src="./images/HomePageImg/orders-svg.png"
+                src={`${process.env.PUBLIC_URL}/images/HomePageImg/orders-svg.png`}
                 sx={{ width: "80px", height: "80px" }}
               ></Avatar>
 
@@ -241,7 +241,7 @@ export default function Home() {
                 </Typography>
               </Stack>
               <Avatar
-                src="./images/HomePageImg/sales-svg.png"
+                src={`${process.env.PUBLIC_URL}/images/HomePageImg/sales-svg.png`}
                 sx={{ width: "80px", height: "80px" }}
               ></Avatar>
 
@@ -264,11 +264,11 @@ export default function Home() {
           alignItems: "center",
         }}
       >
-        <Grid item xs={12} md={12} xl={8} sx={{ height: '500px' }}>
+        <Grid item xs={12} md={12} xl={8} sx={{ height: "500px" }}>
           <ChartComponent />
         </Grid>
 
-        <Grid item xs={12} md={12} xl={4} sx={{ height: '500px' }}>
+        <Grid item xs={12} md={12} xl={4} sx={{ height: "500px" }}>
           <TrafficSrs />
         </Grid>
       </Grid>
