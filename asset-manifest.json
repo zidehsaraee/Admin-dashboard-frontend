@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/css/main.098ba35c.css",
-    "main.js": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/js/main.f2ccc218.js",
-    "index.html": "//zidehsaraee.github.io/Admin-dashboard-frontend/index.html",
-    "main.098ba35c.css.map": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/css/main.098ba35c.css.map",
-    "main.f2ccc218.js.map": "//zidehsaraee.github.io/Admin-dashboard-frontend/static/js/main.f2ccc218.js.map"
+    "main.css": "/Admin-dashboard-frontend/static/css/main.098ba35c.css",
+    "main.js": "/Admin-dashboard-frontend/static/js/main.f1f14821.js",
+    "index.html": "/Admin-dashboard-frontend/index.html",
+    "main.098ba35c.css.map": "/Admin-dashboard-frontend/static/css/main.098ba35c.css.map",
+    "main.f1f14821.js.map": "/Admin-dashboard-frontend/static/js/main.f1f14821.js.map"
   },
   "entrypoints": [
     "static/css/main.098ba35c.css",
-    "static/js/main.f2ccc218.js"
+    "static/js/main.f1f14821.js"
   ]
 }
